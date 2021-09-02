@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project AGIT</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
+    <script src="js/index.js" defer></script>
+    <script src="js/autohome.js" defer></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Playfair+Display:wght@400;500;600;700;800;900&family=Permanent+Marker&display=swap"
+        rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="header">
+            <div class="inner-header">
+                <div class="nav">
+                    <h1 class="logo"><a href="#">AGIT</a></h1>
+                    <div class="rcon">
+                        <div class="sound">
+                            <img class="soundOn" src="img/soundon.png" alt="soundon">
+                            <img class="soundOff" src="img/soundoff.png" alt="soundoff">
+                            <p>MUSIC</p>
+                            <span class="circle"></span>
+                            <span class="circle2"></span>
+                            <audio src="video/bgAudio.mp3" loop class="audio"></audio>
+                        </div>
+                        <span class="search"><img src="img/search.png" alt="search"></span>
+                        <div class="gnbshow">
+                            <span class="topline"></span>
+                            <span class="bottomline"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gnb">
+            <h2 class="menu">INDEX</h2>
+            <ul>
+                <li>HOME</li>
+                <li>ZONE</li>
+                <li>COMPONENTS</li>
+                <li>VIDEO</li>
+                <li>MORE INFO</li>
+            </ul>
+        </div>
+        <div class="container">
+            <div class="inner-container">
+                <!-- The video -->
+                <video autoplay muted loop id="myVideo">
+                    <source src="video/video_1.mp4" type="video/mp4">
+                </video>
+                <div class="gallery">
+                    <ul>
+                        <li class="home pageOn">
+                            <ul>
+                                <li class="homeLiOn">
+                                    <h3 class="Agittitle">
+                                        AGIT
+                                    </h3>
+                                    <p>청춘대로만의 공간, 청춘대로만의 감성<br>성내길 아지트</p>
+                                </li>
+                                <li>
+                                    <h3 class="title">
+                                        CULTURE COMPLEX
+                                    </h3>
+                                    <p>자유로운 문화 활동을 할 수 있도록 꾸며진 공간</p>
+                                </li>
+                                <li>
+                                    <h3 class="title">
+                                        RE-DESIGN
+                                    </h3>
+                                    <p>침체된 청년몰과 주변의 상권을 되살리기 위한 구도심 활성화 프로젝트</p>
+                                </li>
+                                <li>
+                                    <h3 class="title">
+                                        LOCATED
+                                    </h3>
+                                    <p>충청북도 충주시 성내동 360번지 일원</p>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="aboutAgit">
+                            <ul>
+                                <li class="A zoneOn">
+                                    <div class="text">
+                                        <h3 class="title">
+                                            Agit Zone
+                                        </h3>
+                                        <p>청년몰 건물 외곽을 따라 다양한 문화활동을 체험할 수 있는 동선</p>
+                                    </div>
+                                    <div class="rightimg">
+                                        <img src="img/azoneimg_0.jpg" alt="A zone 1">
+                                        <img src="img/azoneimg_1.jpg" alt="A zone 2">
+                                        <img src="img/azoneimg_2.jpg" alt="A zone 3">
+                                    </div>
+                                    <div class="AzoneWay"></div>
+                                </li>
+                                <li class="B">
+                                    <div class="text">
+                                        <h3 class="title">
+                                            Resting Zone
+                                        </h3>
+                                        <p>다양한 방향에서 접근이 가능하며 카페, 책장길, 쉼터 등을 이용할 수 있는 동선</p>
+                                    </div>
+                                    <div class="leftimg">
+                                        <img src="img/bzoneimg_0.jpg" alt="B zone 1">
+                                        <img src="img/bzoneimg_1.jpg" alt="B zone 2">
+                                        <img src="img/bzoneimg_2.jpg" alt="B zone 3">
+                                    </div>
+                                    <div class="BzoneWay"></div>
+                                </li>
+                            </ul>
+                            <div class="arrowbtn">
+                                <span class="arrowLeft">◀</span>
+                                <span class="arrowRight arrowOn">▶</span>
+                            </div>
+                        </li>
+                        <li class="components">
+                            <div class="compGal">
+                                <ul>
+                                    <li class="compOn">
+                                        <h3 class="title">
+                                            Curtain Folly
+                                        </h3>
+                                        <p>그늘막을 제공하는 AGIT의 시그니쳐 커튼형 어반 폴리</p>
+                                    </li>
+                                    <li>
+                                        <h3 class="title">
+                                            Bookshelf Way
+                                        </h3>
+                                        <p>자유롭게 앉아서 책을 볼 수 있는 책장과 벤치로 이루어진 길</p>
+                                    </li>
+                                    <li>
+                                        <h3 class="title">
+                                            Openspace Cafe
+                                        </h3>
+                                        <p>청년몰 건물과 광장의 경계를 허물어 개방적인 느낌을 준 카페</p>
+                                    </li>
+                                    <li>
+                                        <h3 class="title">
+                                            Tent shelter
+                                        </h3>
+                                        <p>텐트형 천막의 형태로 쉼터 이용객들에게 그늘막과 앉을 자리를 제공</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="box"></div>
+                            <div class="progressbar">
+                                <div class="progressbar_sub"></div>
+                            </div>
+                            <div class="compBcon">
+                                <ul>
+                                    <li class="compBconOn"></li>
+                                    <li></li>
+                                    <li></li>
+                                    <li></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="video">
+                            <div class="videoBox">
+                                <button class="videoPlay buttonOn">PLAY</button>
+                                <button class="videoPause">PAUSE</button>
+                                <video src="video/video_main.mp4" loop id="mainVideo"></video>
+                            </div>
+                        </li>
+                        <li class="moreInfo">
+                            <div class="textBox">
+                                <div class="leftCon">
+                                    <div class="txt_sub">
+                                        <h3>페이지 제작자</h3>
+                                        <p>Choi Junhyeok</p>
+                                    </div>
+                                    <div class="txt_sub">
+                                        <h3>AGIT 프로젝트 팀</h3>
+                                        <p>
+                                            Choi Junhyeok<br>Choi Woojin<br>Lee eujin<br>Ahn soyoung
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="rightCon">
+                                    <div class="txt_sub">
+                                        <h3>프로젝트 제작 툴</h3>
+                                        <p>
+                                            Rhinoceros<br>Keyshot<br>Twinmotion<br>Illustrator<br>Photoshop<br>Premiere
+                                            Pro
+                                        </p>
+                                    </div>
+                                    <div class="txt_sub">
+                                        <h3>웹페이지 제작 언어</h3>
+                                        <p>
+                                            HTML5<br>CSS3<br>JavaScript<br>jQuery
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="box"></div>
+                        </li>
+                    </ul>
+                    <div class="scrollBox">
+                        <div class="scroll">
+                            <span></span>
+                            <p>SCROLL<br>DOWN</p>
+                        </div>
+                    </div>
+                    <div class="bconBox">
+                        <div class="bcon">
+                            <ul>
+                                <li class="on"></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="startLightBox">
+            AGIT
+        </div>
+    </div>
+</body>
+
+</html>
